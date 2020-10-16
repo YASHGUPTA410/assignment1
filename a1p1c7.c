@@ -1,16 +1,21 @@
 #include<stdio.h>
 int main()
 {
-        int n;
-        printf("enter the number");
-        scanf("%d",&n);
-        int a,b,c;
+        int t;
+        printf("Enter Number");
+        scanf("%d",&t);
+        int a,b,c,x,y,z,w,m;
                 a=n%10;
+	        x=y+z;
+		m=y+w;
+	        y=m+x;
+		z=x+m;
+		
 	n=n-a;
 	n=n/10;
 	b=n%10;
 	c=a+b;
-        printf("the output is %d", c);
+        printf(" %d", c);
 }
 
 
